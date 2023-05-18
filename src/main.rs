@@ -1,3 +1,7 @@
+mod pieces;
+mod board;
 fn main() {
-    println!("Hello, world!");
+    for n in 0..11 {
+        println!("{}", n);
+    }
 }
